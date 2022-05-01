@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+		"experimentalDecorators": true,
+		"target": "ES2016",
+		"sourceMap": true,
+		"declarationMap": true,
+		"outDir": "./dist",
+        "rootDir": "./src",
+		"module": "ESNext",
+		"moduleResolution": "node",
+        "stripInternal": true,
+		"preserveSymlinks": true,
+        "importHelpers": false,
+        "esModuleInterop": true,
+		"lib": [
+			"es2016",
+			"dom"
+		],
+		"declaration": true,
+		"emitDecoratorMetadata": true,
+		"downlevelIteration": true
+    },
+    "include": [ "./src/**/*.ts" ],
+    "compilerOptions": {
+        "plugins": [{ "transform": "typescript-rtti/dist/transformer" }]
+    }
+}

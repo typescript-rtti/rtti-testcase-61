@@ -1,0 +1,22 @@
+{
+  "name": "rtti-testcase-61",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "module": "dist/main.js",
+  "scripts": {
+    "build": "ttsc -b",
+    "test": "npm run build && node dist/main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "logform": "^2.4.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.6.4",
+    "typescript-rtti": "^0.6.0"
+  }
+}
