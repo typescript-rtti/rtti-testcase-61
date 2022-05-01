@@ -11,8 +11,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "logform": "^2.4.0",
-    "winston": "^3.7.2"
+    "logform": "2.4.0",
+    "winston": "3.7.2"
   },
   "devDependencies": {
     "ttypescript": "^1.5.13",
